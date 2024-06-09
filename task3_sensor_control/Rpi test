@@ -1,0 +1,25 @@
+
+    <section id="streaming_viewer">
+      <div align="center">
+      <h1 align="center">Rod tracker</h1>
+      <!--object id="myobject" width="1100" height="500" data="http://apc-stream.rz.tu-ilmenau.de/"></object-->
+      <img id="background" class="center" src="{{ url_for('video_feed') }}">
+      <!--h1 align="center">Rod tracker</h1-->
+      <object id="myobject" width="1100" height="500" data="http://apc-stream.rz.tu-ilmenau.de/"></object>
+      <!--img id="background" class="center" src="{{ url_for('video_feed') }}"-->
+    </div>
+    </section>
+
+    <!-- HTML elements for 'Current color' information -->
+    <!-- ... -->
+    <b>Distance:</b><span id="distance"></span>
+    <p><b>Current color from Open CV:</b>
+    <!--p><b>Current color from Open CV:</b>
+      <b>Green: </b><span id="green_open_cv"></span>, 
+      <b>Purple: </b><span id="purple_open_cv"></span>, 
+      <b>Yellow: </b><span id="yellow_open_cv"></span>
+    </p>
+    </p-->
+    
+    <!-- HTML elements for 'Distance' information -->
+    <!-- ... -->
